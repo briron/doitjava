@@ -1,4 +1,4 @@
-package doitjava.first.binary;
+package doitjava.binary;
 
 public class BinaryTest {
     public static void main(String[] args) {

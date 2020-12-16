@@ -1,4 +1,4 @@
-package doitjava.first.variable;
+package doitjava.variable;
 
 public class Character {
     public static void main(String[] args) {

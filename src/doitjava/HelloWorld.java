@@ -1,4 +1,4 @@
-package doitjava.first;
+package doitjava;
 
 public class HelloWorld {
 
