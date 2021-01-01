@@ -40,5 +40,11 @@ public class AppleFarm {
         System.out.println("greenApples = " + greenApples);
         System.out.println("heavyApples = " + heavyApples);
         System.out.println("lightApples = " + lightApples);
+
+        inventory.sort((Apple a1, Apple a2) -> {
+            return a1.getWeight().compareTo(a2.getWeight());
+        });
+
+        System.out.println("inventory = " + inventory);
     }
 }
