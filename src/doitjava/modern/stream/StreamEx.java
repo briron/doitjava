@@ -6,7 +6,7 @@ import java.util.List;
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
 
-public class Stream {
+public class StreamEx {
     public static void main(String[] args) {
         /* filter */
         List<Dish> vegetarianMenu = Dish.menu.stream().filter(Dish::isVegetarian).collect(toList());
