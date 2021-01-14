@@ -12,5 +12,10 @@ public class IterateStream {
         /* 프레디케이트 활용 */
         Stream.iterate(0, n -> n < 100, n -> n+2)
                 .forEach(System.out::println);
+
+        /* generate 이용하기 */
+        Stream.generate(Math::random)
+                .limit(5)
+                .forEach(System.out::println);
     }
 }
